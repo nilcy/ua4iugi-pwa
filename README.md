@@ -18,10 +18,10 @@ $ git clone https://github.com/nilcy/ua4iugi-pwa.git
 $ git flow init -d
 $ git push origin --all
 ```
->GitHub authentication
->>Settings / Developer settings / Personal access tokens / Generate new token
->>Git username: "GitHub account"
->>Git password: "Enter this token"
+- `GitHub authentication`
+Settings / Developer settings / Personal access tokens / Generate new token
+Git username: "GitHub account"
+Git password: "Enter this token"
 
 ## `Build Scripts`
 In the project directory, you can run:
@@ -40,5 +40,4 @@ tag=`/bin/date +%Y%m%d-%H%M%S`
 /usr/bin/git add .
 /usr/bin/git commit -m "UP2DATE"
 /usr/bin/git flow release finish $tag
-
 ```

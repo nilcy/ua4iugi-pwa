@@ -12,6 +12,7 @@ $ npx create-react-app ua4iugi-pwa --template typescript --use-npm
 ```
 $ sudo apt install git git-flow
 $ git config --global core.quotepath false
+$ git config pull.rebase false
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
 $ git config --global credential.helper store
@@ -31,6 +32,14 @@ $ npm start
 $ npm test
 $ npm run build
 $ npm eject
+```
+
+## `Merge`
+```
+$ git log --all --graph --pretty=format:'%h %d %s' --abbrev-commit
+$ git diff <CONFLICT-FILE>
+$ git checkout --ours <CONFLICT-FILE>
+$ git checkout --theirs <CONFLICT-FILE>
 ```
 
 ## `Release`

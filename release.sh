@@ -7,7 +7,7 @@ if [ $? != 0 ]; then
   exit 1
 fi
 
-tag=`date +%Y%m%d-%H%M%S`
+tag=`/bin/date +%Y%m%d-%H%M%S`
 $GIT_PATH flow release start $tag
 $GIT_PATH log --oneline --decorate=short > CHANGELOG.md
 $GIT_PATH add .

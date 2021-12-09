@@ -31,3 +31,14 @@ $ npm test
 $ npm run build
 $ npm eject
 ```
+
+## `Release`
+```
+tag=`/bin/date +%Y%m%d-%H%M%S`
+/usr/bin/git flow release start $tag
+/usr/bin/git log --oneline --decorate=short > CHANGELOG.md
+/usr/bin/git add .
+/usr/bin/git commit -m "UP2DATE"
+/usr/bin/git flow release finish $tag
+
+```

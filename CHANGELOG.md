@@ -1,4 +1,8 @@
-781a565 (HEAD -> develop, origin/develop) UP2DATE
+6ea2ce2 (HEAD -> release/20211210-141102, origin/develop, develop) UP2DATE
+a52235b UP2DATE
+78b65f9 UP2DATE
+13d922b UP2DATE
+781a565 UP2DATE
 7dded69 UP2DATE
 f7b82fc UP2DATE
 d9fc720 UP2DATE

@@ -1,7 +1,7 @@
 # ua4iugi-pwa
 
-The meaning of YAFIYGI is: You asked for it, you got it.
-The meaning of PWA is: Progressive web application.
+The meaning of YAFIYGI is: You Asked For It, You Got It.
+The meaning of PWA is: Progressive Web Application.
 
 ## `Template`
 

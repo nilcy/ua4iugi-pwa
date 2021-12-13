@@ -94,6 +94,14 @@ $ npm run build
 $ npm eject
 ```
 
+## `Merge`
+```
+$ git log --all --graph --pretty=format:'%h %d %s' --abbrev-commit
+$ git diff <CONFLICT-FILE>
+$ git checkout --ours <CONFLICT-FILE>
+$ git checkout --theirs <CONFLICT-FILE>
+```
+
 ## `Release`
 
 ```
